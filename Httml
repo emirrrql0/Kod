@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Giriş</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="instagram-logo.png" alt="Instagram Logo" class="logo">
+        <form>
+            <input type="text" placeholder="Telefon numarası, kullanıcı adı veya e-posta" required>
+            <input type="password" placeholder="Şifre" required>
+            <button type="submit">Giriş Yap</button>
+        </form>
+        <p class="forgot-password"><a href="#">Şifreni mi unuttun?</a></p>
+    </div>
+</body>
+</html>
